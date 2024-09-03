@@ -1,33 +1,33 @@
-corpo {
-    cor de fundo :  # 1D4221 ;
-    cor : branco;
-    família de fontes :  "Bai Jamjuree" , sem serifa;
-    exibição : flex;
-    justificar-conteúdo : centro;
-    alinhar-itens : centro;
-    altura :  700 px ;
-    margem :  0 ;
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-botão {
-    cor de fundo :  # 64A712 ;
-    cor : branco;
-    família de fontes :  "Bai Jamjuree" , sem serifa;
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-. passo {
-    exibição : nenhuma;
+.passo {
+    display: none;
 }
 
-. passo . ativo {
-    exibir : bloco;
+.passo.ativo {
+    display:block;
 }
 
-principal {
-    alinhamento de texto : centralizar;
-    largura máxima :  90 % ;
+main {
+    text-align: center;
+    max-width: 90%;
 }
 
-imagem {
-    largura máxima :  90 % ;
+img {
+    max-width: 90%;
 }
